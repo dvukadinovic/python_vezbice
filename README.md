@@ -16,7 +16,7 @@ Pri igranju sa primerima, preporucuje se da se zakomentarise ceo kod i  onda ici
 
 Iskustvo u programiranju cete steci samo ako sednete i radite na primerima i problemima. Ako ne znate kako se nesto radi tu je uvek Google koji ima rešenje za sve vase probleme (linkovi ka  Stackoverflow forumu su najbolji izvor informacija). Takođe, jako bitna stvar je citati i razumeti greske koje vraca compiler. Ako znate gde je greska i zbog cega, pola problema je vec reseno.
 
-Neki od korisnih linkova za detaljnije upoznavanje sa Pythonom (obratite samo paznju da li su primeri za Python3.x ili starije verzije):
+Neki od korisnih linkova za detaljnije upoznavanje sa Pythonom (obratite samo pažnju da li su primeri za Python3.x ili starije verzije):
 
 	- https://www.tutorialspoint.com/python/index.htm
 	- https://www.programiz.com/python-programming
@@ -24,4 +24,4 @@ Neki od korisnih linkova za detaljnije upoznavanje sa Pythonom (obratite samo pa
 	- https://docs.scipy.org/doc/ (modul za numeriku - numpy i scipy)
 	- https://matplotlib.org/ (modul za grafiku)
 
-Srecno programiranje!
+Srećno programiranje!
