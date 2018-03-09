@@ -1,10 +1,10 @@
 # Uvod u programski jezik Python
 
-Python je jedan od programskih jezika visokog nivo. To znaci da ukoliko imate neki zadatak da izvrsite, to mozete uz malo kodiranja veoma brzo uraditi. Programiranje uz pomoc Pythona je brzo i efikasno! i dolazi besplatno.
+Python je jedan od programskih jezika visokog nivo. To znači da ukoliko imate neki zadatak da izvršite, to možete uz malo kodiranja veoma brzo uraditi. Programiranje uz pomoć Pythona je brzo i efikasno! i dolazi besplatno.
 
-Postoji nekoliko verzija compiler-a za Python kodove. Buducnost rada je u Python3 verziji (i visim verzijam kao što su 3.4 ili 3.5). Ukoliko zelite da radite u Pythonu, topla preporuka je da od pocetka krenete sa Python3. Veliki broj ljudi danas radi u Python verzijama 3.x. Tako cete biti u koraku sa trenutnim razvojem jezika i skripti / modula koje postaju dostupne online.
+Postoji nekoliko verzija compiler-a za Python kodove. Budućnost rada je u Python3 verziji (i višim verzijam kao što su 3.4 ili 3.5). Ukoliko želite da radite u Pythonu, topla preporuka je da od početka krenete sa Python3. Veliki broj ljudi danas radi u Python verzijama 3.x. Tako ćete biti u koraku sa trenutnim razvojem jezika i skripti / modula koje postaju dostupne online.
 
-Par informacija o programiranju u Pythonu: razlikuje mala i velika slova, nema definisanja promenljivih. File-ovi sa Python kodovima se zavrsavaju na .py. Bitna osobina programiranja u Pythonu je sto kodovi moraju da budu lepo struktuirani. Ukoliko izvrsavate operacije u okviru for / if / while petlji morate uvuci naredni red za 4 blanko mesta (ili jedan tab).
+Par informacija o programiranju u Pythonu: razlikuje mala i velika slova, nema definisanja promenljivih. File-ovi sa Python kodovima se završavaju na .py. Bitna osobina programiranja u Pythonu je sto kodovi moraju da budu lepo struktuirani. Ukoliko izvršavate operacije u okviru '''python for / if / while python''' petlji morate uvući naredni red za 4 blanko mesta (ili jedan tab).
 
 Vazno! Koristite ili 4 blanko mesta ili jedan tab. Nemojte mesati, inace kod nece hteti da se pokrene!
 
