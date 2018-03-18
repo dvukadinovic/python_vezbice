@@ -3,7 +3,7 @@ Skripta broj 1.
 
 Osnovni primeri rada u Pythonu i operacije nad promenljivima.
 
-23. februar 2018.
+azurirano: 18. mart 2018.
 """
 
 # in-line komentar
@@ -12,7 +12,7 @@ Blok
 komentar
 """
 """
-print (nesto) - na standardni izlaz ispisujemo sadrzaj unutar
+print(nesto) - na standardni izlaz ispisujemo sadrzaj unutar
 obicnih zagrada. Moze biti broj / slovo / tekst ili sta god.
 """
 
@@ -26,7 +26,7 @@ print(2**5)
 print(16**(0.5))
 print(124 % 3)
 """
-type (nesto) - funkcija type nam vraca kog je tipa promenljiva koja
+type(nesto) - funkcija type nam vraca kog je tipa promenljiva koja
 se nalazi unuatr obicnih zagrada.
 
 Tipovi koji se srecu su:
@@ -57,11 +57,12 @@ print(type(a))
 """
 Prethodni primeri sadrze samo jednu vrednost. Medjutim, vise promenljivih
 mozemo i da grupisemo u jednu. Takvi tipovi se nazivaju: liste, tuple-ovi, 
-recnici i nizovi (njih cemo malo kasnije podrobnije sresti kada budem 
+recnici i nizovi (njih cemo malo kasnije podrobnije sresti kada budemo
 radili sa numpy modulom).
 """
 
-l = [1, 5.3, 'Python3']  # lista
+# lista
+l = [1, 5.3, 'Python3']
 print(l)
 """
 Mozete pristupiti i samo nekom elemntu liste / niza ili vise njih.
@@ -71,33 +72,41 @@ i brojati unazad, tako da je -1 element poslednji, -2 pretposlednji itd.
 print(l[0])
 print(l[-1])
 
-l[0] = 23  # menjamo vrednost prvog elementa u listi
+# menjamo vrednost prvog elementa u listi
+l[0] = 23
 print(l)
-print(l * 2)  # duplirali smo listu - napravili njenu kopiju
-print((l * 2)[1:5:2])  # od 1. do 5. elementa, ali svaki drugi element
-print((l * 2)[::3])  # svaki treci element iz cele liste
+# dupliramo listu - napravili njenu kopiju
+print(l * 2)
 
-l.append(
-    False
-)  # dodajemo novu promenljivu na kraj liste - zato se koristi funkcija append (nesto)
-print(l)
-print(len(l))  # len (nesto) - vraca duzinu promenljive koja se
-# nalazi u obicnim zagradama
-
-print(l[1:3])  # printamo samo elemente sa indeksom 1 sve do
+print(l[1:3])
+# printamo samo elemente sa indeksom 1 sve do
 # elementa sa indeksom 3 (ne ukljucujuci taj indeks)
 # ukoliko ne bi stajao broj 3, onda bi se uzeli elementi
 # sve do poslednjeg. Poigrajte se sa tim.
 
-t = (1, 5.3, 'Python3')  # tuple; slicno kao i lista, samo sto je sa obicnim
+# ispisujemo od 1. do 5. elementa, ali svaki drugi element
+print((l * 2)[1:5:2])
+# svaki treci element iz cele liste
+print((l * 2)[::3])
+
+# dodajemo novu promenljivu na kraj liste - za to se koristi funkcija append (nesto)
+l.append(
+    False
+)
+print(l)
+# len (nesto) - vraca duzinu promenljive koja se nalazi u obicnim zagradama
+print(len(l))
+
+t = (1, 5.3, 'Python3')
+# tuple; slicno kao i lista, samo sto je sa obicnim
 # zagradama; razlika u odnosu na liste je samo sto
 # ne mozemo da menjamo vrednosti unutar tuple-a
 # ostale operacije koje vaze za liste, vaze i za
 # tuple-ove
 
-# int()     - pretvaramo u ceo broj
-# float()   - pretvaramo u decimalni broj
-# str()     - pretvaramo u string
+# int() - pretvaramo u ceo broj
+# float() - pretvaramo u decimalni broj
+# str() - pretvaramo u string
 a = '5'
 print(type(a))
 b = int(a)

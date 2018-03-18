@@ -4,14 +4,17 @@ Skripta broj 2.
 Rad sa petljama (for, while, if), ucitavanje i upisivanje u file kao i 
 definisanje funkcija.
 
-23. februar 2018.
+18. mart 2018.
 """
 
-l = [1, 5.3, 'Python3', False, 1.232e-2]  # lista
+# lista
+l = [1, 5.3, 'Python3', False, 1.232e-2]
+
 """
 for petlja - izvrsavamo neki niz operacija zadati broj puta
 ili iteriramo po datom nizu
 """
+
 # u prevodu: za svaki 'element' iz liste 'l' radi nesto
 for element in l:  
     print(element)  
@@ -25,12 +28,10 @@ for ii in range(len(l)):
     # vec vraca svoj poseban tip objekta koji se zove `imutabilna sekvencijalna lista`
     # koji mozemo iterirati, npr list(range(2))=[0,1,2]
 
-
-
 """
 while petlja - izvrsavamo neki niz operacija dok je zadovoljen uslov
 U okviru while i if petlje se koriste sledeci logicki operatori 
-(u format: element1 operator element2)
+(u formatu: element1 operator element2)
 ili ukoliko hocemo da povezemo vise uslova
 
 (element1 operator element2) and/or/not (element3)
@@ -48,7 +49,7 @@ if all( [el1 op1 el2, el3 op2 el4] )
 """
 
 ii = 0
-# brojac kroz listu, na pocetku moramo zadati da je jednak 0;
+# brojac kroz listu, na pocetku moramo zadati odredjenu vrednost, ovde je to 0;
 while ii < len(l):
     print(l[ii])
     ii += 1  
@@ -78,6 +79,7 @@ Tekst koji ucitavamo moze biti proizvoljnog tipa posto na kraju to biva ucitano
 kao string. Kasnije to mozemo pretvoriti u broj ako su u pitanju podaci iz nekog
 eksperimenta ili baze podataka.
 """
+
 f = open('test_podaci','r')
 # 'r' predstavlja mod u kom je fajl otvoren (read)
 # opsti nacin otvaranja file-a za citanje sadrzaja
@@ -108,19 +110,18 @@ f.close()
 Funkcije - pre nego sto se definise funkcija stoji kljucna rec 'def'. Promenljive unutar funkcije
 i njihove vrednosti nisu vidljive, ne moze im se pristupiti, van funkcija. Medjutim, promenljivima
 definisanim van funkcija se moze pristupiti unutar funkcija. Zbog toga voditi racuna o nazivima
-promenljivih u funkcijama.
-
+promenljivih u funkcijama!
 """
 
 # funkcija koja se zove 'sabiranje', ima argumente 'a' i 'b' i vraca
+# zbir argumenata funkcije
 def sabiranje(a, b):
     c = a + b 
-    # zbir argumenata funkcije
     return c  
 
-#funkciju pozivate sa: ime_funkcije(arg1, arg2)
-#ili ako imate listu argumenata
-#npr niz=[4,6], funkciju sabiranje mozete pozvati sa:
+# funkciju pozivate sa: ime_funkcije(arg1, arg2)
+# ili ako imate listu argumenata
+# npr niz=[4,6], funkciju sabiranje mozete pozvati sa:
 # sabiranje(*niz)
 
 print(sabiranje(2, 3))
@@ -148,4 +149,3 @@ br1, br2 = exmpl(5)
 
 out = exmpl(13)  # sada je 'out' promenljiva tipa tuple
 print(out)
-
