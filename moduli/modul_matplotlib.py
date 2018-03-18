@@ -10,8 +10,9 @@ Matplotlib modul sadrzi funkcije uz pomoc kojih se crtaju razni grafici,
 prave animacije i slicno. Mnogi primeri kako se koristi modul se mogu
 naci na: https://matplotlib.org/gallery/index.html.
 
-23. februar 2018.
+18. mart 2018.
 """
+
 # importujemo modul za grafiku, skraceno kao 'plt'
 import matplotlib.pyplot as plt
 import numpy as np
@@ -50,16 +51,16 @@ a = np.random.normal(5, 1, 2000)
 plt.hist(a, bins=20)
 # histogram sa 20 binova
 plt.text(2, 250, 'histogram')
-plt.show()
 # mozemo da pisemo po grafiku - prva dva broja su koordinate
 # sa kojih pocinje tekst - (x,y) par
+plt.show()
 
 # =============================================== #
 
 x = np.linspace(0, 3 * np.pi, 51)
 plt.plot(x, np.sin(x), color='red')
-# mozemo da crtamo vise plotova na jedan grafik
 plt.plot(x, np.sin(x + 0.25), color='magenta')
+# mozemo da crtamo vise plotova na jedan grafik
 # Python ce sve plotove da smesti na jedan grafik
 # sve dok mi ne prikazemo taj grafik
 plt.show()
@@ -70,14 +71,13 @@ plt.figure()
 # inicijalizujemo grafik
 
 plt.subplot(121)
-# pravimo dva plota na jedan grafik i to sa 1 redom i 2 kolone
-plt.plot(x, np.sin(x))
+# pravimo dva plota na jedan grafik i to sa 1 redom i 2 kolone;
 # crtamo 1. (zato je 121) - prva 2 broja govore o rasporedu
 # plotova, a poslednji broj o rednom broju plota koji crtamo
+plt.plot(x, np.sin(x))
 plt.subplot(122)
-plt.plot(x, np.cos(x))
 # crtamo 2. (zato je 122)
-
+plt.plot(x, np.cos(x))
 plt.show()
 
 # =============================================== #
@@ -85,7 +85,7 @@ plt.show()
 fig, ax = plt.subplots(1, 2, sharey=True)
 # drugaciji pristup definisanju vise plota na jedan grafik;
 # 'ax' sadrzi lisu plotova - ax[0] je prvi, a ax[1] je drugi;
-# sharey = True - plotovi dele zajednicku y-osu - ne ponavljaju
+# sharey=True - plotovi dele zajednicku y-osu - ne ponavljaju
 # se vrednosti na y osi na drugom grafiku
 
 ax[0].plot(x, np.sin(x), color='red', label='sinusna funkcija')

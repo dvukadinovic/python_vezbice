@@ -10,20 +10,19 @@ Scipy modul sadrzi operacije nad numericim nizovima (type je ndarray) kao
 sto su interpolacija, integracija, optimizacija (fitovanje) i mnoge
 druge. Scipy modul je namenjen za rad u okviru naucne zajednice.
 
-23. februar 2018.
+18. mart 2018.
 """
 
 # vec vidite da se nista ne moze bez numpy
+# i matplotlib modula
 import matplotlib.pyplot as plt
 import numpy as np
-# i matplotlib modula
 from scipy.integrate import simps
 # funkcija koja racuna integral primenom
 # Simpsonove integralne seme
 from scipy.interpolate import interp1d
 # funkcija za 1D interpolaciju
 from scipy.optimize import curve_fit
-
 # funkcija koja se koristi za fitovanje
 
 a, b, c = np.loadtxt('test_podaci', unpack=True)
@@ -41,11 +40,9 @@ intpfun = interp1d(a, b)
 # napravili smo interpolacionu funkciju na osnovu
 # izmerenih vredonsti a i b
 print('Vrednost funkcije u x=3.5 je ', intpfun(3.5))
-
 # trazimo vrednost u tacki x = 3.5
 
 # =================================================== #
-
 
 def fitfun(x, a0, a1, a2):
     """
