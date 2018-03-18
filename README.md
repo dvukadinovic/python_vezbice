@@ -26,6 +26,6 @@ Neki od korisnih linkova za detaljnije upoznavanje sa Pythonom (obratite samo pa
 
 	<https://docs.scipy.org/doc/> (modul za numeriku - numpy i scipy)
 
-	https://matplotlib.org/ (modul za grafiku)
+https://matplotlib.org/ (modul za grafiku)
 
 Srećno programiranje!
