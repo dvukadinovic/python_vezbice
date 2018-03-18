@@ -18,13 +18,13 @@ Iskustvo u programiranju ćete steći samo ako sednete i radite na primerima i p
 
 Neki od korisnih linkova za detaljnije upoznavanje sa Pythonom (obratite samo pažnju da li su primeri za Python3.x ili starije verzije):
 
- ...<https://www.tutorialspoint.com/python/index.htm>
+https://www.tutorialspoint.com/python/index.htm
 
- ...<https://www.programiz.com/python-programming>
+https://www.programiz.com/python-programming
 
- ...<http://scientific-python.readthedocs.io/en/latest/notebooks_rst/notebooks.html>
+http://scientific-python.readthedocs.io/en/latest/notebooks_rst/notebooks.html
 
-	<https://docs.scipy.org/doc/> (modul za numeriku - numpy i scipy)
+https://docs.scipy.org/doc/ (modul za numeriku - numpy i scipy)
 
 https://matplotlib.org/ (modul za grafiku)
 
