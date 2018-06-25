@@ -14,6 +14,8 @@ biti linija sa fitom kontinuuma dok je na drugom normalizovani spektar. Na
 kraju je potrebno izdvojeni normalizovani spektar linije sacuvati u fits file
 (ne zaboravite da korigujete shodno i header snimka koji cuvate!).
 
+azurirano: 25. jun 2018.
+
 """
 
 import numpy as np

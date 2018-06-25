@@ -4,7 +4,7 @@ Skripta broj 2.
 Rad sa petljama (for, while, if), ucitavanje i upisivanje u file kao i 
 definisanje funkcija.
 
-18. mart 2018.
+azurirano: 18. mart 2018.
 """
 
 # lista

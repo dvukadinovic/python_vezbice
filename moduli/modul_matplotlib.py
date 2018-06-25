@@ -10,7 +10,7 @@ Matplotlib modul sadrzi funkcije uz pomoc kojih se crtaju razni grafici,
 prave animacije i slicno. Mnogi primeri kako se koristi modul se mogu
 naci na: https://matplotlib.org/gallery/index.html.
 
-18. mart 2018.
+azurirano: 18. mart 2018.
 """
 
 # importujemo modul za grafiku, skraceno kao 'plt'

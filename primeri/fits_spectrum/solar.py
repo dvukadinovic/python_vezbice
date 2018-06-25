@@ -9,6 +9,7 @@ graficki predstaviti promenu intenziteta u centru linije sa udaljenoscu od
 ruba diska Sunca. Proveriti kako izgleda ceo spektar za nelikoliko razlicitih
 udaljenosti od ruba.
 
+azurirano: 25. jun 2018.
 """
 
 import numpy as np

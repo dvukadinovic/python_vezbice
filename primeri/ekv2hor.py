@@ -3,6 +3,8 @@
 Transformacija koordinata nebeskog objekta iz mesnog ekvatorskog u
 horizontski koordinatni sistem.
 
+azurirano: 25. mart 2018.
+
 """
 
 import numpy as np

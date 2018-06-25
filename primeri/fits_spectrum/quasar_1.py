@@ -13,6 +13,8 @@ spektralna linija) za koju cemo takodje naci talasnu duzinu na kojoj se javlja
 u spektru i izvuci koji je fluks u centru linije. Znamo da se linija javlja u
 intervalu 1500-1600 angstrema.
 
+azurirano: 25. jun 2018.
+
 """
 
 import numpy as np

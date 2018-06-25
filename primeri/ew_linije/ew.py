@@ -7,7 +7,7 @@ Ekvivalena sirina predstavlja meru jacine linije i predstavlja povrsinu linije.
 Odnosno, to je sirina pravougaonika cija je visina normirana na kontinuum, a
 povrsina pravougaonika odgovara povrsini linije.
 
-
+azurirano: 14. april 2018.
 """
 
 import numpy as np

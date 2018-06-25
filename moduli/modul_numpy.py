@@ -9,7 +9,7 @@ naziv_modula.ime_funkcije(objekat_na_koji_primenjujemo_funckiju)
 Numpy modul sadrzi operacije nad numericim nizovima (type je ndarray) koji
 mogu biti proizvoljnog broja dimenzija.
 
-18. mart 2018.
+azurirano: 18. mart 2018.
 """
 
 import numpy as np

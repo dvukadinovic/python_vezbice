@@ -7,6 +7,8 @@ fluksa u Jy.
 Zadatak je da se na dati spektar zracenja fituje model zracenja stepenim
 zakonom. Na kraju ispisati vrednosti parametera fita.
 
+azurirano: 14. april 2018.
+
 """
 
 import numpy as np

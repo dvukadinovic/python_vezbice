@@ -10,7 +10,7 @@ Scipy modul sadrzi operacije nad numericim nizovima (type je ndarray) kao
 sto su interpolacija, integracija, optimizacija (fitovanje) i mnoge
 druge. Scipy modul je namenjen za rad u okviru naucne zajednice.
 
-18. mart 2018.
+azurirano: 18. mart 2018.
 """
 
 # vec vidite da se nista ne moze bez numpy
